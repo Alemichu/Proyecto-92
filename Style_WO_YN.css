@@ -1,0 +1,28 @@
+body
+{
+    background: linear-gradient(to right, lightblue, cyan, darkblue);
+}
+
+.font_title
+{
+    font-family: 'Lumanosimo', cursive;
+}
+
+.container_player
+{
+    padding: 10px;
+    background-color: white;
+    float: none;
+    border-radius: 15px;
+}
+
+#output
+{
+    background: white;
+    padding: 10px;
+    border-radius: 15px;
+    border-top: solid red;
+    float: none;
+    text-align: left;
+    width: 50%;
+}

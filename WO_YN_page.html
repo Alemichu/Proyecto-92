@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title class="text-capitalize">Play maths multiplication! The Game</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!--Bootstrap 3.4.1-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> <!--Bootstrap 3.4-->
+
+        <link href="https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap" rel="stylesheet"> <!--Font Title-->
+
+        <link rel="stylesheet" href="Style_WO_YN.css">
+    </head>
+    <body>
+        <button onclick="Logout()" id="logout" class="glyphicon glyphicon-log-out btn btn-danger" style="float: right;">Salir</button>
+
+        <h4 id="player1"></h4> <span id="score1"></span>
+        <br>
+        <h4 id="player2"></h4> <span id="score2"></span>
+        <div class="container"></div>
+            <center>
+                <h2 class="font_title text-capitalize">To play for maths multiplication!</h2>
+
+                <hr>
+
+                <br>
+
+                <h4 id="player_question"></h4>
+                <h4 id="player_answer"></h4>
+
+                <div id="output"> </div>
+
+                <br> <br>
+
+                <h3>Crear Multiplicación Número 1</h3>
+                <input style="width: 40%; border-radius: 15px;" type="text" 
+                class="form-control" id="player_turn" placeholder="Ingresa un número para la multiplicación complicado">
+
+                <br>
+                <hr>
+                <br>
+                
+                <h3>Crear Multiplicación Número 2</h3>
+                <input style="width: 40%; border-radius: 15px;" type="text" 
+                class="form-control" id="player_turn1" placeholder="Ingresa un número para la multiplicación complicado">
+
+                <br> 
+
+                <button style="width: 25%; border-radius: 18px;" class="btn btn-warning" onclick="Send();">Agregar número</button>
+            </center>
+        </div>
+        <script src="WO_YN_page.js"></script>
+    </body>
+</html>

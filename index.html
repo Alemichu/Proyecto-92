@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title class="text-capitalize">Play maths multiplication!</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!--Bootstrap 3.4.1-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> <!--Bootstrap 3.4-->
+
+        <link href="https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap" rel="stylesheet"> <!--Font Title-->
+
+        <link rel="stylesheet" href="Style_WO_YN.css">
+    </head>
+    <body>
+        <center>
+
+            <h2 class="font_title">Play maths multiplication! | Login</h2>
+            <hr>
+
+            <div class="container_player col-lg-4 col-sm-8 col-xs-11">
+                <h3 class="font_title">Jugador 1</h3>
+                <br>
+                <h4>Inicia sesión para jugar</h4>
+
+                <p><kbd class="text-capitalize">Nombre de usuario</kbd></p>
+                <input type="text" id="username1" class="form-control" placeholder="Ingresa tu nombre de usuario">
+            </div>
+
+            <br> <br>
+
+            <div class="container_player col-lg-4 col-sm-8 col-xs-11">
+                <h3 class="font_title">Jugador 2</h3>
+                <br>
+                <h4>Inicia sesión para jugar</h4>
+
+                <p><kbd class="text-capitalize">Nombre de usuario</kbd></p>
+                <input type="text" id="username2" class="form-control" placeholder="Ingresa tu nombre de usuario">
+            </div>
+
+            <br> <br>
+
+            <button onclick="addUser();" class="btn btn-danger" style="width: 30%;">INICIAR SESIÓN</button>
+
+        </center>
+
+        <script src="WO_YN_login.js"></script>
+    </body>
+</html>
